@@ -1,0 +1,75 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"spyglass": "item/spyglass_model"
+	},
+	"elements": [
+		{
+			"name": "Tip Bottle",
+			"from": [7, 12.5, 7],
+			"to": [9, 13, 9],
+			"faces": {
+				"north": {"uv": [12, 6, 14, 6.5], "texture": "#spyglass"},
+				"east": {"uv": [2, 6, 4, 6.5], "texture": "#spyglass"},
+				"south": {"uv": [12, 6, 14, 6.5], "texture": "#spyglass"},
+				"west": {"uv": [2, 6, 4, 6.5], "texture": "#spyglass"},
+				"up": {"uv": [13, 5, 15, 7], "texture": "#spyglass"},
+				"down": {"uv": [2, 5, 4, 7], "texture": "#spyglass"}
+			}
+		},
+		{
+			"name": "Neck Bottle",
+			"from": [7.25, 9.55, 7.25],
+			"to": [8.75, 12.55, 8.75],
+			"faces": {
+				"north": {"uv": [2, 11, 4, 15], "texture": "#spyglass"},
+				"east": {"uv": [12, 11, 14, 15], "texture": "#spyglass"},
+				"south": {"uv": [2, 11, 4, 15], "texture": "#spyglass"},
+				"west": {"uv": [12, 11, 14, 15], "texture": "#spyglass"},
+				"up": {"uv": [12, 5, 14, 7], "texture": "#spyglass"},
+				"down": {"uv": [2, 10, 4, 12], "texture": "#spyglass"}
+			}
+		},
+		{
+			"name": "Base Bottle",
+			"from": [6.65, 2.4, 6.65],
+			"to": [9.35, 9.6, 9.35],
+			"faces": {
+				"north": {"uv": [12, 6, 15, 14], "texture": "#spyglass"},
+				"east": {"uv": [1, 6, 4, 14], "texture": "#spyglass"},
+				"south": {"uv": [12, 6, 15, 14], "texture": "#spyglass"},
+				"west": {"uv": [1, 6, 4, 14], "texture": "#spyglass"},
+				"up": {"uv": [1, 4, 4, 7], "texture": "#spyglass"},
+				"down": {"uv": [0, 11, 3, 14], "rotation": 180, "texture": "#spyglass"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -2, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.25, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.25, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 0]
+		},
+		"gui": {
+			"rotation": [-67.5, 0, 45],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -0.75, -15.25],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

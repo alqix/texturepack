@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/vine",
+		"vine": "block/vine"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.8],
+			"to": [16, 16, 0.8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#vine", "tintindex": 0},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#vine", "tintindex": 0}
+			}
+		},
+		{
+			"from": [15.2, 0, 0],
+			"to": [15.2, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#vine", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#vine", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 15.2, 0],
+			"to": [16, 15.2, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 15]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#vine", "tintindex": 0},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#vine", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1]
+		},
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2]
+		}
+	]
+}
